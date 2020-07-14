@@ -7,15 +7,25 @@ namespace Utility
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("Hello World!");
+            //1. Find the word based on the position
             Console.WriteLine("Enter string");
             string input = Console.ReadLine();
             Console.WriteLine("Enter the position of word");
             int position = int.Parse(Console.ReadLine());
             Console.WriteLine("Enter the char to parse");
             char charToParse = Console.ReadLine()[0];
-            Console.WriteLine(LastWord(position, input, charToParse));
-            string[] palindromeArray = { "madam","refer","level","radar","welcome","world","hello"};
+            Console.WriteLine(LastWord(position, input, charToParse)+"\n");
+
+            //2. check if the any of string is palindrome in a array
+            Console.WriteLine("Enter the number of strings to find palindrome");
+            int lenghtOfString = int.Parse(Console.ReadLine());
+            string[] palindromeArray = new string[lenghtOfString];
+            Console.WriteLine("Enter the strings");
+            for (int i=0;i<lenghtOfString;i++)
+            {
+                palindromeArray[i] = Console.ReadLine();
+            }
+           // palindromeArray = { "madam","refer","level","radar","welcome","world","hello"};
             Program program = new Program();
             //find Palindrome in array of strings
             List<string> list=program.GetPalindromes(palindromeArray);
@@ -25,14 +35,16 @@ namespace Utility
             }
             else
             {
-                Console.WriteLine($"Palindromes in array of strings"+"[{0}]",string.Join(",",palindromeArray).Trim(','));
+                Console.WriteLine($"Palindromes in array of strings"+"[{0}] are: ",string.Join(",",palindromeArray).Trim(','));
                 foreach (string value in list)
                 {
                     Console.WriteLine(value);
                 }
+                Console.Write("\n");
             }
-            //temperature
-            Console.WriteLine("Please select the converter");
+
+            //3. Temperature convertor - celcius to fahrenheit and vice versa
+            Console.WriteLine("Please select the convertor");
             Console.WriteLine("1 -  From celcius to fahrenheit");
             Console.WriteLine("2 - From fahrenheit to celcius");
             string options = Console.ReadLine();
@@ -65,7 +77,7 @@ namespace Utility
                     return $"the word {array[i]} is in position "+position;
                 }
             }
-            return "There is no word in the position" + position;
+            return "There is no word in the position " + position;
         }
         List<string> GetPalindromes(string[] array)
         {
