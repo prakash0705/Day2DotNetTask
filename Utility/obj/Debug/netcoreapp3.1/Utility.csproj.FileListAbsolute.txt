@@ -1,0 +1,13 @@
+C:\Users\PRKUMA17\Desktop\day2\Utility\Utility\bin\Debug\netcoreapp3.1\Utility.exe
+C:\Users\PRKUMA17\Desktop\day2\Utility\Utility\bin\Debug\netcoreapp3.1\Utility.deps.json
+C:\Users\PRKUMA17\Desktop\day2\Utility\Utility\bin\Debug\netcoreapp3.1\Utility.runtimeconfig.json
+C:\Users\PRKUMA17\Desktop\day2\Utility\Utility\bin\Debug\netcoreapp3.1\Utility.runtimeconfig.dev.json
+C:\Users\PRKUMA17\Desktop\day2\Utility\Utility\bin\Debug\netcoreapp3.1\Utility.dll
+C:\Users\PRKUMA17\Desktop\day2\Utility\Utility\bin\Debug\netcoreapp3.1\Utility.pdb
+C:\Users\PRKUMA17\Desktop\day2\Utility\Utility\obj\Debug\netcoreapp3.1\Utility.csprojAssemblyReference.cache
+C:\Users\PRKUMA17\Desktop\day2\Utility\Utility\obj\Debug\netcoreapp3.1\Utility.AssemblyInfoInputs.cache
+C:\Users\PRKUMA17\Desktop\day2\Utility\Utility\obj\Debug\netcoreapp3.1\Utility.AssemblyInfo.cs
+C:\Users\PRKUMA17\Desktop\day2\Utility\Utility\obj\Debug\netcoreapp3.1\Utility.csproj.CoreCompileInputs.cache
+C:\Users\PRKUMA17\Desktop\day2\Utility\Utility\obj\Debug\netcoreapp3.1\Utility.dll
+C:\Users\PRKUMA17\Desktop\day2\Utility\Utility\obj\Debug\netcoreapp3.1\Utility.pdb
+C:\Users\PRKUMA17\Desktop\day2\Utility\Utility\obj\Debug\netcoreapp3.1\Utility.genruntimeconfig.cache
